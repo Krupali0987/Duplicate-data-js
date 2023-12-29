@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Duplicate-Data</title>
+    </head>
+
+    <body>
+        <div>
+            <lable for="names">Name :</lable>
+            <input type="text" id="names" placeholder="enter your name">
+        </div>
+
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="enter your email">
+        </div>
+
+        <div>
+            <label for="pass">Password :</label>
+            <input type="password" id="pass" placeholder="enter your password">
+        </div>
+
+        <div>
+            <label for="cpass">Confirm password :</label>
+            <input type="password" id="cpass" placeholder="enter your Confirm password">
+        </div>
+
+        <div> 
+            <label for="phone">Phone number :</label>
+            <input type="tel" id="phone" placeholder="enter your phone number">
+        </div>
+
+        <div>
+            <button onclick="submit()">Submit</button>
+        </div>
+
+        <div>
+            <input type="search" id="search" placeholder="Search....">
+            <button onclick="search()">Search</button> 
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>email</th>
+                    <th>password</th>
+                    <th>confirm password</th>
+                    <th>phone</th>
+                </thead>
+                <tbody id="table"></tbody>
+            </table>
+        </div>
+ 
+        <script src="./duplicate-data.js"></script>
+    </body>
+</html>
